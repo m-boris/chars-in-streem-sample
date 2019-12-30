@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 public class CharsCounterServiceImpl implements CharsCounterService {
 
+    @Override
     public List<CharsFrequency> calculateCharsFrequency(String inputStr) {
         ConcurrentHashMap<Character, CharsFrequency> map = new ConcurrentHashMap();
         inputStr.chars()
