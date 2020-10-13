@@ -15,7 +15,7 @@
         <junit-jupiter.version>5.5.2</junit-jupiter.version>
         <hamcrest.version>2.2</hamcrest.version>
         <!-- optional : if we want to use a junit4 specific version -->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencies>
